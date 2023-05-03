@@ -52,9 +52,7 @@ void hal_config()
   SystemClock_Config();
 
   /* Initialize all configured peripherals */
-  MX_GPIO_Init();
   MX_DMA_Init();
-  MX_I2C1_Init();
 }
 
 
